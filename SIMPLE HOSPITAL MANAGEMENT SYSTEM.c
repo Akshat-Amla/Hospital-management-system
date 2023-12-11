@@ -92,7 +92,7 @@ void add()
     scanf("%d",&n);
     sum=n+num;
 
-    for(i=num,j=0; i<sum; i++)
+    for(i=num; i<sum; i++)
     {
         printf("\n");
         fflush(stdin);
